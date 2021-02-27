@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/IgorDalepiane/NLW04_Nodejs">
-    <img src="readme/node.png" alt="Logo" width="80" height="80">
+    <img src="readme/node.png" alt="Logo" width="140" >
   </a>
 
   <h3 align="center">NPS Calculator</h3>
