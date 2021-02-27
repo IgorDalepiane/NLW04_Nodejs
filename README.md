@@ -28,8 +28,13 @@
 > This application was developed during the Next Level Week # 04 provided by Rocketseat, from 02/22/2021 until 02/26/2021. 
 
 This application is only the backend for creating surveys, and relating to existing users, and then sends an email asking the user what level of satisfaction with a particular survey, he can respond from 0 to 10, after this is done a calculation called NPS (Net Promoter Score), which separates votes into: Detractors (0- 6), Passives (7 - 8) and Promoters (9 - 10), after the separation a calculation is applied to obtain the result .
-
-![](readme/screenshot.png)
+<br />
+<br />
+<p align="center">
+  <a href="https://moveit-sooty.vercel.app">
+    <img src="readme/screenshot.png" alt="Screenshot">
+  </a>
+</p>
 
 ### Prerequisites
 
