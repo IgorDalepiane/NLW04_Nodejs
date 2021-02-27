@@ -18,73 +18,18 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/IgorDalepiane/NLW04_Nodejs">
-    <img src="readme/node.png" alt="Logo" width="140" >
-  </a>
+# NPS Calculator
+> This application was developed during the Next Level Week # 04 provided by Rocketseat, from 02/22/2021 until 02/26/2021. 
 
-  <h3 align="center">NPS Calculator</h3>
+This application is only the backend for creating surveys, and relating to existing users, and then sends an email asking the user what level of satisfaction with a particular survey, he can respond from 0 to 10, after this is done a calculation called NPS (Net Promoter Score), which separates votes into: Detractors (0- 6), Passives (7 - 8) and Promoters (9 - 10), after the separation a calculation is applied to obtain the result .
 
-  <p align="center">
-    This application was developed during the Next Level Week # 04 provided by Rocketseat, from 02/22/2021 until 02/26/2021.
-    <br />
-    <br />
-  </p>
-</p>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-<p align="center">
-  <a href="https://moveit-sooty.vercel.app">
-    <img src="readme/screenshot.png" alt="Screenshot">
-  </a>
-</p>
-
-### Built With
-
--   [Node.js](https://nodejs.org)
--   [TypeScript](https://www.typescriptlang.org/)
--   [TypeORM](https://typeorm.io)
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
+![](readme/screenshot.png)
 
 ### Prerequisites
 
@@ -107,11 +52,13 @@ To get a local copy up and running follow these simple steps.
 
 For more detailed installation steps, use this [link](https://www.notion.so/Configura-es-do-ambiente-Node-js-2d7216f5f1d641939dd48046d5c819f1) provided by Rocketseat to guide you
 
-<!-- USAGE EXAMPLES -->
+<!-- ABOUT THE PROJECT -->
 
-## Usage
+### Built With
 
-This application is only the backend for creating surveys, and relating to existing users, and then sends an email asking the user what level of satisfaction with a particular survey, he can respond from 0 to 10, after this is done a calculation called NPS (Net Promoter Score), which separates votes into: Detractors (0- 6), Passives (7 - 8) and Promoters (9 - 10), after the separation a calculation is applied to obtain the result .
+-   [Node.js](https://nodejs.org)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [TypeORM](https://typeorm.io)
 
 ## Contact
 
