@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import { resolve } from "path";
 import { getCustomRepository } from "typeorm";
+import { AppError } from "../errors/AppError";
 import { SurveysRepository } from "../repositories/SurveysRepository";
 import { SurveysUsersRepository } from "../repositories/SurveysUsersRepository";
 import { UsersRepository } from "../repositories/UsersRepository";
@@ -30,9 +31,7 @@ class SendMailController {
         });
 
         if (!survey) {
-            return response.status(400).json({
-                error: "Survey dos not exists!",
-            });
+            throw new AppError("Survey dos not exists!");
         }
 
         const npsPath = resolve(
