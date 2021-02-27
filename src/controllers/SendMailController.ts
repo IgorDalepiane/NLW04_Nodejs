@@ -30,10 +30,12 @@ class SendMailController {
             id: survey_id,
         });
 
+        //Error
         if (!survey) {
             throw new AppError("Survey dos not exists!");
         }
 
+        //Path to handlebars file
         const npsPath = resolve(
             __dirname,
             "..",
@@ -42,6 +44,7 @@ class SendMailController {
             "npsMail.hbs"
         );
 
+        //User is already linked to this survey?
         const surveyUserAlreadyExists = await surveysUsersRepository.findOne({
             where: { user_id: user.id, survey_id: survey.id },
             relations: ["user", "survey"],

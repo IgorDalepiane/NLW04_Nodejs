@@ -24,6 +24,7 @@ class NpsController {
             value: Not(IsNull()),
         });
 
+        //Get length of detractors on database
         const detractor = surveysUsers.filter(
             (survey) => survey.value >= 0 && survey.value <= 6
         ).length;
@@ -38,6 +39,7 @@ class NpsController {
 
         const totalAnswers = surveysUsers.length;
 
+        //NPS calculation
         const calculate = Number(
             (((promoters - detractor) / totalAnswers) * 100).toFixed(2)
         );

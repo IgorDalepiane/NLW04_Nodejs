@@ -16,6 +16,7 @@ class AnswerController {
         const { value } = request.params;
         const { u } = request.query;
 
+        //Database connection
         const surveysUsersRepository = getCustomRepository(
             SurveysUsersRepository
         );
@@ -30,6 +31,7 @@ class AnswerController {
 
         surveyUser.value = Number(value);
 
+        //Save on database
         await surveysUsersRepository.save(surveyUser);
 
         return response.json(surveyUser);
